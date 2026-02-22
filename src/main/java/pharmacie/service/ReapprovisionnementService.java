@@ -53,12 +53,7 @@ public class ReapprovisionnementService {
 
             envoyerMailFournisseur(fournisseur, articlesParCategorie);
 
-            //PAUSE A CAUSE DE mailtrap
-            try {
-                Thread.sleep(15000); 
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
+            
         }
     }
 
